@@ -14,8 +14,18 @@ There is also a directory called `data` that contains various CSV files used in 
 
 ## Agenda
 
-### Day 1:
-tbd
+| Time     | Lesson                      | Link                        |
+|----------|-----------------------------|-----------------------------|
+| 13:00    | Running Python              | https://swcarpentry.github.io/python-novice-gapminder/01-run-quit/index.html |
+| 13:20    | Variables and Assignment    | https://swcarpentry.github.io/python-novice-gapminder/02-variables/index.html |
+| 13:45    | Data Types and Type Conversion | https://swcarpentry.github.io/python-novice-gapminder/03-types-conversion/index.html |
+| 14:00    | Lists                       | https://swcarpentry.github.io/python-novice-gapminder/11-lists/index.html |
+| 14:30    | Break                       |                             |
+| 15:00    | For Loops                   | https://swcarpentry.github.io/python-novice-gapminder/12-for-loops/index.html |
+| 15:30    | Conditionals                | https://swcarpentry.github.io/python-novice-gapminder/13-conditionals/index.html |
+| 15:45    | Functions                   | https://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html |
+| 16:15    | End                         |                             |
+
 
 ### Day 2:
 | Time     | Lesson                      |
