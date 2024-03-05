@@ -85,7 +85,44 @@ VS Code works best if you open a folder that contains everything related to the 
 - Choose to trust the authors of the folder when prompted
 
 
+> ℹ️ **Note:** On Windows 11, you can also right-click a folder in the Explorer and choose `Show more options` followed by `Open with Code`. On macOS, this is unfortunately not available by default, but you can create such a shortcut by following the instructions in this [Stack Overflow answer](https://stackoverflow.com/a/64065309),
+
+- Explore the workshop folder structure by clicking through the directories on the left and selecting various files. Note the following:
+  - Selecting a file with a single click opens it in a new tab, but close it again if you switch to another file (note the name in italics on the tab)
+  - Selecting a file with a double click opens it in a new tab and keeps it open until you close the tab (note the non-italicized name on the tab)
+  - Some file extensions that VS Code recognizes will cause a notification to popup recommending an extension. **While those can be useful, let's stay focused on the main concepts here and ignore these notifications**
+  - Right-clicking a file or folder will bring up additional options:
+    - Many file-management operations can be done this way (cut, copy, paste, ...)
+    - `Reveal in Finder` (macOS) or `Reveal in File Explorer` (Windows 11) can be useful for things that cannot be done inside of VS Code
+    - Some files can be previewed as a rendered version by clicking `Open Preview` (e.g. `*.md` files)
+  - Some files cannot be displayed or previewed within VS Code out-of-the box, but support can be added through extensions (e.g. `*.pdf` or `*.csv` files)
+  - Open tabs can be arranged by dragging and snapping them into position:
+    - Example: preview of this file side-by-side with the raw text.
 
 
+## Installing the Python extension
+As mentioned above, you can add a lot of functionality to VS Code through extensions. While you definitely should explore the huge collection of exntensions out there, today we will focus on the bare minimum that allows us to write Python code.
 
-Make *Open in Visual Studio Code* an [option in the context menu on macOS](https://stackoverflow.com/a/64065309)
+Theoretically, you would not need any extension to write a text file in VS Code and then have Python execute the commands in that text file. However, the Python extension offfers a lot of additional functionality that greatly simplifies the development and debugging process.
+
+To install the extension:
+- Choose the `Extensions` tab on the Primary Side Bar
+- The Python extension should be listed under the `Popular` heading, otherwise type `Python` into the search box
+- Click on `Install`
+- Close the `Welcome` tab that popped up after the installation
+
+To check that it works, we will write some Python code to a file and execute it:
+- On the left, navigate to the folder `day-01/my_code` and highlight it
+- Right-click the folder and select `New File...` or click on `New File...` at the top of the side bar
+- Enter `hello_world.py` and hit return
+- In the tab that opened up, enter the following lines of code:
+  ```{python}
+  4 + 3
+  x = 6 * 7 + 12
+  print("Hello world!")
+  ```
+- Now let's run the code by clicking the ▶️ icon in the top right
+  - Q: What do you observe?
+    A: Only the line with the `print` statement is printed to the console
+-
+
