@@ -124,5 +124,18 @@ To check that it works, we will write some Python code to a file and execute it:
 - Now let's run the code by clicking the ▶️ icon in the top right
   - Q: What do you observe?
     A: Only the line with the `print` statement is printed to the console
--
+
+
+## Installing the Jupyter extension
+Python scripts always run from top to bottom in their entirety. This is great when you have a fully-formed program that you want to execute, but it is somewhat inconvenient when you want to have more of a back-and-forth, interactive experience. This is often the case when you are doing data analysis, create visualizations, or do any other kind of more iterative work.
+
+To support such use cases, there is an extension for Python called _Jupyter_. We can install Jupyter on VS Code's `Extensions` tab:
+
+- Choose the `Extensions` tab on the Primary Side Bar
+- The `Jupyter` extension should be listed under the `Popular` heading, otherwise type `Jupyter` into the search box
+- Click on `Install`
+
+Once the installation is complete, we are good to go!
+
+
 
