@@ -14,7 +14,7 @@ There is also a directory called `data` that contains various CSV files used in 
 
 ## Agenda
 
-### Day 1:
+### Day 1, Morning Session:
 
 | Time     | Lesson                      |
 |----------|:----------------------------|
@@ -29,20 +29,20 @@ There is also a directory called `data` that contains various CSV files used in 
 | 12:00    | End                         |
 
 
-### Day 2:
+### Day 1, Afternoon Session:
 | Time     | Lesson                      |
 |----------|:----------------------------|
-|   9:00   | Built-In Functions and Help |
-|   9:25   | Writing functions           |
-|   9:50   | Libraries                   |
-|   10:10  | Reading Tabular Data        |
-|   10:30  | Coffee break                |
-|   11:00  | Pandas DataFrames           |
-|   11:40  | Plotting (part 1)           |
-|   12:00  | End                         |
+|   1:00   | Built-In Functions and Help |
+|   1:25   | Writing functions           |
+|   1:50   | Libraries                   |
+|   2:10  | Reading Tabular Data        |
+|   2:30  | Coffee break                |
+|   3:00  | Pandas DataFrames           |
+|   3:40  | Plotting (part 1)           |
+|   4:00  | End                         |
 
 
-### Day 3:
+### Day 2, Morning Session:
 | Time     | Lesson                      |
 |----------|:----------------------------|
 |   9:00   | Plotting (part 2)           |
